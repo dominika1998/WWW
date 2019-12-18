@@ -1,0 +1,2 @@
+Ta podstrona równie¿ wykorzystuje infinite scrolling, tym razem jest o miastach portugalskich.
+Plik .json pobra³am z tej samej strony, co w wypadku podstrony "Hiszpania".

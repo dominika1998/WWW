@@ -1,0 +1,11 @@
+Ta podstrona zawiera zdjêcia miejsc w Pradze. Nad obrazkami znajduje siê forma, do której wpisuje siê komentarze do danego obrazka.
+Skoro projekt nie ma zawieraæ backendu, to rozumiem, ¿e mogê komentarze zapisywaæ w stanie mojej klasy, tak te¿ robiê.
+Stan jest jakby baz¹, spisem komentarzy dodawanych przez u¿ytkownika.
+Bêdzie widaæ wszystkie komentarze, nie tylko ten najnowszy.
+Zdjêcia pochodz¹ z Grafiki Google, ich styl ustawi³am za pomoc¹ CSS.
+
+Instrukcja: niech pierwszym znakiem Twojego komentarza bêdzie numer obrazka, na przyk³ad:
+komentarz do zdjêcia 1 powiniem miec tak¹ formê: 1komentarz...
+
+Lista komentarzy znajduje siê na dole strony.
+Przy ka¿dym otwarciu strony state w komponencie jest inicjowany od zera.

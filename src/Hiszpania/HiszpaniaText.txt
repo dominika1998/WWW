@@ -1,0 +1,6 @@
+Ta podstrona wykorzystuje infinite scrolling. Jest to spis kilkudziesiêciu hiszpañskich miast z nastêpuj¹cymi informacjami:
+- do jakiej wspólnoty autonomicznej nale¿¹;
+- jak¹ pe³ni¹ "funkcjê" w pañstwie;
+- liczba mieszkañców, jeœli by³a podana w bazie danych.
+
+Adres strony, z której pobra³am plik .json z danymi: https://simplemaps.com/data/es-cities

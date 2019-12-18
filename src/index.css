@@ -1,13 +1,88 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	background-color: white;
+	position: relative;
+	margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+h1, h2, p, ul, li, label {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-style: normal;
+	font-variant: normal;
+}
+
+ul.top_menu_bar {
+	background-color: white;
+	padding: 0;
+	overflow: auto;
+	color: white;
+	float: left;
+	position: relative;
+	top: -16px;
+	z-index: 10;
+	height: 100%;
+	max-width: 135px;
+}
+
+
+ul.top_menu_bar li {
+  background-color: white;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  text-decoration: none;
+  border-style: solid;
+  font-weight: bold;
+  
+}
+
+ul.top_menu_bar li a {
+  background-color: #8adebd;
+  width: 100px;
+  max-width: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+.content {
+  background-color: white;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-style: normal;
+  position: relative;
+  height: 100%;
+  padding: 30px;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+ul.top_menu_bar li a.active {
+	color: #8adebd;
+	width: 100px;
+	background-color: white;
+	font-size: 20px;
+}
+
+.dropdown {
+	background-color: #8adebd;
+}
+
+.dropdown li {
+	background-color: white;
+	float: left;
+	position: relative;
+	left: -35px;
+}
+
+.dropdown li a {
+	background-color: white;
+}
+
+ul.zawartosc li {
+	display: inline-block;
+	margin-right: 20px;
 }

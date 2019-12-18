@@ -1,0 +1,10 @@
+﻿Dominika Kapanowska - projekt1
+
+Realizacja zadań:
+1. Podstrony "Hiszpania" i "Portugalia" doczytują dane z plików .json z wykorzystaniem infinite scrolling.
+2. Podstrona "Czechy" posiada stworzony przeze mnie system komentarzy zapisywanych w stanie klasy dziedziczącej po Component.
+3. Używam HTML5, CSS, jQuery, React.Js.
+4. Teksty na górze każdej podstrony są ładowane z plików tekstowych z użyciem AJAXa.
+5. Element "Państwo" komponentu nawigacyjnego rozwija podmenu.
+
+Projekt jest dość prymitywny i mało zaawansowany, gdyż tyle potrafiłam zrobić :)
